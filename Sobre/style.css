@@ -1,0 +1,76 @@
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+  text-align: center;
+  background: #ecf0f1;
+  color: #34282C;
+}
+
+#top {
+  position: fixed;
+  display: none;
+  /*background: #586BA4; /*Comment for Transparent Header*/
+  color: white;
+  width: 100%;
+  line-height: 60px;
+}
+
+.small-selector {  
+  width: 60px;
+}
+
+.med-selector {
+  width: 175px;
+}
+
+.selector {
+  cursor: pointer;
+  transition: .25s;
+  float: left;
+  height: 60px;
+}
+
+.hover-dark:hover, .hover-dark:active {
+  /*background: #324376; /*Comment for Transparent Header*/
+  background: #4B4B4B;
+}
+
+.hover-light:hover, .hover-light:active {
+  /*background: #324376; /*Comment for Transparent Header*/
+  color: #34282C;
+  font-weight: bold;
+}
+
+#home {
+  height: 100vh;
+  line-height: 50vh;
+  background: url(https://images.unsplash.com/photo-1473116519190-356a1463fbcf?dpr=1.5&auto=format&fit=crop&w=1080&h=729&q=80&cs=tinysrgb&crop=) no-repeat fixed;
+  /*background: url(https://i.imgur.com/2Q0LquT.jpg) no-repeat fixed;*/
+  background-position: 0% 30%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  color: #E5E5E5;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+#intro {
+  display: none;
+}
+
+#rest {
+  /*padding-top: 60px; /*Comment for Transparent Header*/
+}
+
+#1 {
+  background: red;
+}
+
+#creds {
+}
+#creds i {
+  font-size: .75em;
+}
